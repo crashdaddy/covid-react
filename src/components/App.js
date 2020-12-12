@@ -83,7 +83,7 @@ class App extends Component {
         "min": am4core.color("#c2918c"),
         "max": am4core.color("#ff0000"),
         "dataField": "value",
-        "logarithmic": true
+        "logarithmic": false
     });
 
     // check if the API data has filled the state object yet
